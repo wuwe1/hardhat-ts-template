@@ -8,7 +8,7 @@ const { ALCHEMY_API_KEY } = process.env;
 
 if (!ALCHEMY_API_KEY)
   throw new Error(
-    `ARCHIVE_URL env var not set. Copy .env.template to .env and set the env var`
+    `ALCHEMY_API_KEY env var not set. Copy .env.template to .env and set the env var`
   );
 
 // const accounts = [`0x${process.env.PRIVATE_KEY}`];
